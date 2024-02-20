@@ -1,0 +1,57 @@
+/*.container {*/
+/*    display: flex;*/
+/*    align-items: center; !* Вирівнюємо елементи по вертикалі *!*/
+/*    justify-content: center; !* Вирівнюємо елементи по горизонталі *!*/
+/*    width: 300px; !* Ширина блоку *!*/
+/*    height: 200px; !* Висота блоку *!*/
+/*    border: 1px solid #ccc; !* Рамка *!*/
+/*    padding: 20px; !* Відступи в середині блоку *!*/
+/*}*/
+
+/*.text {*/
+/*    text-align: center; !* Вирівнюємо текст по центру *!*/
+/*}*/
+
+/*.image {*/
+/*    max-width: 100%; !* Максимальна ширина зображення *!*/
+/*    max-height: 100%; !* Максимальна висота зображення *!*/
+/*}*/
+
+
+/* Сховати оригінальний чекбокс */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Стилізація контейнера чекбокса */
+.checkbox-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Стилізація фону чекбокса */
+.checkbox-background {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Стилізація позначки чекбокса */
+.checkbox-mark {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: none;
+}
+
+/* Показ позначки чекбокса при виборі */
+input[type="checkbox"]:checked + .checkbox-container .checkbox-mark {
+    display: block;
+}
