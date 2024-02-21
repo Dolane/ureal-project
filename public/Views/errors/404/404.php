@@ -7,7 +7,7 @@
           maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>404 page</title>
-    <link rel="stylesheet" href='http://ureal/public/Views/errors/404/404.css'>
+    <link rel="stylesheet" href='http://ureal-project/public/Views/errors/404/404.css'>
     <link rel="icon" type="image/png" sizes="32x32" href="/public/images/errorlogo.webp">
 <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Days+One">-->
 <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->

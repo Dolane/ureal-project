@@ -1,0 +1,19 @@
+.input-form {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+
+}
+
+.button {
+    position: absolute;
+    top: 101%;
+    left: 34%;
+
+}
+
+.h2 {
+    position: absolute;
+    top: -85%;
+    left: 8.5%;
+}

@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ureal</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="/public/images/logo.png">312
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/images/logo.png">
 </head>
 <body>
 <h1>NATIONAL MULTIMEDIA TEST</h1>

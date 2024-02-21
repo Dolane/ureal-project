@@ -11,7 +11,7 @@ define("MODEL", APP . '/AppModel');
 define("HELPERS", CORE . '/helpers');
 define("CONTROL", APP . '/AppController');
 define("DB", CORE . '/redbeanphp');
-define("PATH", 'http://ureal/');
+define("PATH", 'http://ureal-project/');
 define("ERR", VIEW . '/errors');
 
 
